@@ -1,11 +1,7 @@
-import React from 'react'
-
-function Button() {  
-  return (
-    <button className='active'>
-      Click Me
-    </button>
-  )
+import React from "react";
+import styles from "./Button.module.css";
+function Button() {
+  return <button className={styles.active}>Click Me</button>;
 }
 
-export default Button
+export default Button;
