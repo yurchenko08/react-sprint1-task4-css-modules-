@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "Main Test",
+      "setup": "git clone https://github.com/nrevutska/sprint-8-css-modules-test src/__tests__ && npm install",
+      "run": "HOME=. npx pm2 start npm -- start && CI=true npm test && HOME=. npx pm2 delete 0",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    }
+  ]
+}
